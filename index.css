@@ -1,9 +1,25 @@
 .apperance {
     display: flex;
     flex-direction: column;
+    padding-left: 10%;
+   
 
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1%;
 }
 
 .fields {
-    width: 50px;
+    width: 30%;
+    border: solid 2px grey;
+    border-radius: 3px;
+   
+}
+.submmitButton{
+    width: 10%;
+    display: flex;
+    text-align: center;
+    padding-left: 10%;
 }
