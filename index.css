@@ -1,0 +1,9 @@
+.apperance {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.fields {
+    width: 50px;
+}
