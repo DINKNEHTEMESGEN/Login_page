@@ -38,6 +38,10 @@
     color: white;
 }
 
+
+.contactcontainer{
+    margin:  2px solid  rgb(36, 66, 237) ;
+}
 @media (max-width:767px) {
     .container {
         display: flex;
