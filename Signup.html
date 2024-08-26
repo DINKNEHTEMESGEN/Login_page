@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>sign up</title>
     <link rel="stylesheet" href="./index.css">
+    <script src="index.js"></script>
 
 </head>
 
@@ -16,10 +17,10 @@
     <!--this divi include sign in and signup buttons-->
     <div class="sign">
         <div>
-            <input class="signa" type="button" value="Signup">
+            <input onclick="Signup()" class="signa" type="button" value="Signup">
         </div>
         <div>
-            <input class="signb" type="button" value="Signin">
+            <input onclick="Signin()" class="signb" type="button" value="Signin">
         </div>
     </div>
     <div class="apperance">
@@ -27,7 +28,7 @@
             <!--Header-->
             <h1>sign up</h1>
         </div>
-<!--this is about fields to accept inputs from the user-->
+        <!--this is about fields to accept inputs from the user-->
         <form class="container">
             Firstname:<input type="text" placeholder="Enter your firstname here" class="fields"><br>
             Lastname:<input type="text" placeholder="Enter your lastname here" class="fields"><br>
